@@ -20,7 +20,7 @@ function App() {
         />
         <div className="label">D A S H B O A R D</div>
 
-        <div className="flex flex-col px-5 py-3 mt-4 w-full text-sm font-semibold leading-5 bg-white">
+        <div>
           <div onClick={handleToggleDropdown} className="dropDowns">
             <div style={{ display: "flex", gap: "0.5rem" }}>
               <img
@@ -201,71 +201,71 @@ function App() {
           </div>
 
           <div className="stats">
-            <div class="statsDiv">
-              <div class="statsDiv-2">Revenue</div>
-              <div class="statsDiv-3">$56,945</div>
-              <div class="statsDiv-4">
+            <div className="statsDiv">
+              <div className="statsDiv-2">Revenue</div>
+              <div className="statsDiv-3">$56,945</div>
+              <div className="statsDiv-4">
                 <div
-                  class="statsDiv-5"
+                  className="statsDiv-5"
                   style={{ color: "#20c997", backgroundColor: "#dcfff5" }}
                 >
                   +45%
                 </div>
-                <div class="statsDiv-6">From 4.6%</div>
+                <div className="statsDiv-6">From 4.6%</div>
               </div>
             </div>
-            <div class="statsDiv">
-              <div class="statsDiv-2">Users</div>
-              <div class="statsDiv-3">76.8%</div>
-              <div class="statsDiv-4">
+            <div className="statsDiv">
+              <div className="statsDiv-2">Users</div>
+              <div className="statsDiv-3">76.8%</div>
+              <div className="statsDiv-4">
                 <div
-                  class="statsDiv-5"
+                  className="statsDiv-5"
                   style={{ color: "#E76975", backgroundColor: "#FFE0E3" }}
                 >
                   -1.7%
                 </div>
-                <div class="statsDiv-6">From 4.6%</div>
+                <div className="statsDiv-6">From 4.6%</div>
               </div>
             </div>
-            <div class="statsDiv">
-              <div class="statsDiv-2">New Signups</div>
-              <div class="statsDiv-3">116</div>
-              <div class="statsDiv-4">
+            <div className="statsDiv">
+              <div className="statsDiv-2">New Signups</div>
+              <div className="statsDiv-3">116</div>
+              <div className="statsDiv-4">
                 <div
-                  class="statsDiv-5"
+                  className="statsDiv-5"
                   style={{ color: "#848C9D", backgroundColor: "#F2F4F7" }}
                 >
                   0.00
                 </div>
               </div>
             </div>
-            <div class="statsDiv">
-              <div class="statsDiv-2">Retention</div>
-              <div class="statsDiv-3">12.67%</div>
-              <div class="statsDiv-4">
+            <div className="statsDiv">
+              <div className="statsDiv-2">Retention</div>
+              <div className="statsDiv-3">12.67%</div>
+              <div className="statsDiv-4">
                 <div
-                  class="statsDiv-5"
+                  className="statsDiv-5"
                   style={{ color: "#20c997", backgroundColor: "#dcfff5" }}
                 >
                   +0.6%
                 </div>
-                <div class="statsDiv-6">From 4.6%</div>
+                <div className="statsDiv-6">From 4.6%</div>
               </div>
             </div>
           </div>
 
-          <div class="graphDiv">
-            <div class="graphDiv-2">
-              <div class="graphDiv-3">Performance</div>
+          <div className="graphDiv">
+            <div className="graphDiv-2">
+              <div className="graphDiv-3">Performance</div>
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f1f0e64ed407b56b075ce9b0aa4080563fcfbf7b4b192c669c11278f0dced5c6?"
-                class="graphDivImg"
+                className="graphDivImg"
               />
             </div>
-            <div class="graphDiv-4">
-              <div class="graphDiv-5">
-                <div style={{ marginTop: "0px" }} class="graphDiv-6">
+            <div className="graphDiv-4">
+              <div className="graphDiv-5">
+                <div style={{ marginTop: "0px" }} className="graphDiv-6">
                   400
                 </div>
                 <div>300</div>
@@ -276,10 +276,10 @@ function App() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c4dac996220598fd5acf21bd99fefb1c8c8b1122dfef1d4afd48e7a8b3ab9223?"
-                class="graphDivImg-2"
+                className="graphDivImg-2"
               />
             </div>
-            <div class="graphDiv-11">
+            <div className="graphDiv-11">
               <div>Sun</div>
               <div>Mon</div>
               <div>Tue</div>
@@ -288,23 +288,23 @@ function App() {
               <div>Fri</div>
               <div>Sat</div>
             </div>
-            <div class="graphDiv-19">
-              <div class="graphDiv-20">
-                <div class="graphDiv-21">
+            <div className="graphDiv-19">
+              <div className="graphDiv-20">
+                <div className="graphDiv-21">
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/f69ac6f95b20d15e56e6bc7a9757145f2c0c3cfd2d2f8ef9f03b0ee865a2fc89?"
-                    class="graphDivImg-3"
+                    className="graphDivImg-3"
                   />
-                  <div class="graphDiv-22">Instagram</div>
+                  <div className="graphDiv-22">Instagram</div>
                 </div>
-                <div class="graphDiv-23">
+                <div className="graphDiv-23">
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/1a7a86af250ec0c81dcece5164f164e75434caad94140efed2bb363c421df89a?"
-                    class="graphDivImg-4"
+                    className="graphDivImg-4"
                   />
-                  <div class="graphDiv-24">Facebook</div>
+                  <div className="graphDiv-24">Facebook</div>
                 </div>
               </div>
             </div>
